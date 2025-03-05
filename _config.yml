@@ -38,3 +38,31 @@ navigation:
     url: /news
   - title: Contact
     url: /contact
+
+# Default Layouts
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "_people"
+      type: "people"
+    values:
+      layout: "person"
+  - scope:
+      path: "_research"
+      type: "research"
+    values:
+      layout: "research"
+  - scope:
+      path: "_publications"
+      type: "publications"
+    values:
+      layout: "publication"
+  - scope:
+      path: "_news"
+      type: "news"
+    values:
+      layout: "news"
