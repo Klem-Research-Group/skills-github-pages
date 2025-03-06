@@ -10,7 +10,7 @@ url: "" # Change to your website URL
 github_username: "klem-research-group"
 
 # Build settings
-theme: minima
+remote_theme: broccolini/swiss
 plugins:
   - jekyll-feed
   - jekyll-sitemap
