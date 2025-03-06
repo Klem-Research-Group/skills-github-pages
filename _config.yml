@@ -1,13 +1,13 @@
 # _config.yml
 
 # Site settings
-title: "Your Research Group Name"
-email: "your.email@example.com"
+title: "Klem Research Group"
+email: "HeidiKlem@lsu.edu"
 description: >-
-  Welcome to the official website of [Your Research Group Name]. We conduct cutting-edge research in [your field].
+  Welcome to the official website of the Klem Research Group.
 baseurl: "" # Change if using a subpath
-url: "http://yourwebsite.com" # Change to your website URL
-github_username: "yourgithub"
+url: "" # Change to your website URL
+github_username: "klem-research-group"
 
 # Build settings
 theme: minima
@@ -23,21 +23,23 @@ collections:
     output: true
   publications:
     output: true
+  news:
+    output: true
 
-# Navigation
+# Navigation (Ensure Proper List Formatting)
 navigation:
-  - title: Home
-    url: /
-  - title: Research
-    url: /research
-  - title: People
-    url: /people
-  - title: Publications
-    url: /publications
-  - title: News
-    url: /news
-  - title: Contact
-    url: /contact
+  - title: "Home"
+    url: "/"
+  - title: "Research"
+    url: "/research"
+  - title: "People"
+    url: "/people"
+  - title: "Publications"
+    url: "/publications"
+  - title: "News"
+    url: "/news"
+  - title: "Contact"
+    url: "/contact"
 
 # Default Layouts
 defaults:
@@ -66,4 +68,5 @@ defaults:
       type: "news"
     values:
       layout: "news"
+
 
